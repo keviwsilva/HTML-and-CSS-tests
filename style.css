@@ -1,0 +1,13 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+
+img:hover + h2{
+    display: block;
+}
+
+h2{
+    display: none;
+}
