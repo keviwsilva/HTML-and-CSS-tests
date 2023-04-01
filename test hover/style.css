@@ -3,11 +3,14 @@ body{
     color: white;
 }
 
-
-img:hover + h2{
-    display: block;
+.teste h2{
+    color: blue;
 }
 
-h2{
+.teste{
     display: none;
 }
+
+img:hover + .teste{
+        display: block;
+    }
