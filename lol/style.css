@@ -420,7 +420,20 @@ ul{
     opacity: 1;
 
 }
+.player-banner .botao:hover + .rotas{
+    display: block;
+    opacity: 1;
 
+}
+
+.player-banner .rotas{
+    position: absolute;
+    top: 82%;
+    left: -83.5%;
+    opacity: 9;
+    display: none;
+    z-index: 3;
+}
 
 .start-content .forth-banner{
 
