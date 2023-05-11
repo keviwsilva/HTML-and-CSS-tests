@@ -95,3 +95,32 @@ body{
     }
 }
 
+#text{
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%);
+    height: 60px;
+    border-radius: 10px;
+    background-color: #0c1123d0;
+    border: solid white 2px;
+    color: white;
+}
+
+#meuBotao{
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%);
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: #0c1123d0;
+    border: solid white 2px;
+}
+
+#meuBotao:active{
+    background-color: #4117fd;
+}
+
+

@@ -422,6 +422,7 @@ ul{
 }
 .player-banner .botao:hover + .rotas{
     display: block;
+    animation: 2s;
     opacity: 1;
 
 }
@@ -433,6 +434,8 @@ ul{
     opacity: 9;
     display: none;
     z-index: 3;
+    
+
 }
 
 .start-content .forth-banner{
